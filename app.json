@@ -1,0 +1,35 @@
+{
+  "name": "Example App",
+  "identifier": "com.example.app",
+  "version": "1.0.0",
+  "versionDate": "2026-01-19",
+  "downloadURL": "https://github.com/yourusername/yourrepo/releases/download/v1.0.0/app.ipa",
+  "localizedDescription": "Пример приложения для SideStore",
+  "iconURL": "https://raw.githubusercontent.com/yourusername/yourrepo/main/icon.png",
+  "tintColor": "018084",
+  "size": 12345678,
+  "screenshotURLs": [
+    "https://raw.githubusercontent.com/yourusername/yourrepo/main/screenshot1.png",
+    "https://raw.githubusercontent.com/yourusername/yourrepo/main/screenshot2.png"
+  ],
+  "permissions": [
+    {
+      "type": "photos",
+      "usageDescription": "Доступ к фотографиям"
+    },
+    {
+      "type": "camera",
+      "usageDescription": "Доступ к камере"
+    }
+  ],
+  "beta": false,
+  "news": [
+    {
+      "title": "Версия 1.0.0",
+      "identifier": "v1.0.0",
+      "caption": "Первый релиз",
+      "date": "2026-01-19",
+      "notify": true
+    }
+  ]
+}
