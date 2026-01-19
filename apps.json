@@ -1,71 +1,142 @@
 {
   "name": "My Apps Repository",
   "identifier": "com.maybeyoou.sidestore",
+  "website": "https://maybeyoou.ru",
+  "subtitle": "Personal SideStore Repository",
+  "description": "A collection of modified iOS applications",
+  "tintColor": "#0784FC",
+  "iconURL": "https://maybeyoou.ru/sidestore-repo/icon.png",
+  "headerURL": "https://maybeyoou.ru/sidestore-repo/header.png",
   "apps": [
     {
       "name": "Spotify++",
-      "identifier": "com.spotify.music",
+      "bundleIdentifier": "com.spotify.music",
+      "developerName": "Spotify",
+      "subtitle": "Spotify with additional features",
       "version": "8.6.54",
       "versionDate": "2026-01-19",
+      "versionDescription": "Modified version of Spotify with enhanced features",
       "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/4-Spotify++ v8.6.54.ipa",
       "localizedDescription": "Spotify с дополнительными возможностями",
       "iconURL": "https://maybeyoou.ru/sidestore-repo/icons/spotify.png",
       "tintColor": "1DB954",
+      "category": "music",
       "size": 50510887,
       "screenshotURLs": [],
-      "permissions": [],
-      "beta": false
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "beta": false,
+      "versions": [
+        {
+          "version": "8.6.54",
+          "date": "2026-01-19",
+          "localizedDescription": "Modified version of Spotify with enhanced features",
+          "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/4-Spotify++ v8.6.54.ipa",
+          "size": 50510887
+        }
+      ]
     },
     {
       "name": "Avito",
-      "identifier": "ru.avito.app",
+      "bundleIdentifier": "ru.avito.app",
+      "developerName": "Avito",
+      "subtitle": "Marketplace for buying and selling",
       "version": "148.0",
       "versionDate": "2026-01-19",
+      "versionDescription": "Modified version of Avito",
       "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/ru_avito_app_148_0_und3fined.ipa",
       "localizedDescription": "Avito - площадка объявлений",
       "iconURL": "https://maybeyoou.ru/sidestore-repo/icons/avito.png",
       "tintColor": "FFB800",
+      "category": "shopping",
       "size": 161170183,
       "screenshotURLs": [],
-      "permissions": [],
-      "beta": false
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "beta": false,
+      "versions": [
+        {
+          "version": "148.0",
+          "date": "2026-01-19",
+          "localizedDescription": "Modified version of Avito",
+          "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/ru_avito_app_148_0_und3fined.ipa",
+          "size": 161170183
+        }
+      ]
     },
     {
       "name": "YouTube++",
-      "identifier": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "Google",
+      "subtitle": "YouTube with additional features",
       "version": "1.0.0",
       "versionDate": "2026-01-19",
+      "versionDescription": "Modified version of YouTube with enhanced features",
       "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/YouTube++.ipa",
       "localizedDescription": "YouTube с дополнительными возможностями",
       "iconURL": "https://maybeyoou.ru/sidestore-repo/icons/youtube.png",
       "tintColor": "FF0000",
+      "category": "video",
       "size": 103674391,
       "screenshotURLs": [],
-      "permissions": [],
-      "beta": false
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "beta": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-01-19",
+          "localizedDescription": "Modified version of YouTube with enhanced features",
+          "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/YouTube++.ipa",
+          "size": 103674391
+        }
+      ]
     },
     {
       "name": "Tinkoff Bank",
-      "identifier": "ru.tinkoff.mobile",
+      "bundleIdentifier": "ru.tinkoff.mobile",
+      "developerName": "Tinkoff",
+      "subtitle": "Mobile banking application",
       "version": "6.13.5",
       "versionDate": "2026-01-19",
+      "versionDescription": "Modified version of Tinkoff Bank",
       "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/Tinkoff+Bank+6.13.5.ipa",
       "localizedDescription": "Мобильный банк Тинькофф",
       "iconURL": "https://maybeyoou.ru/sidestore-repo/icons/tinkoff.png",
       "tintColor": "FFCC00",
+      "category": "finance",
       "size": 191115908,
       "screenshotURLs": [],
-      "permissions": [],
-      "beta": false
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "beta": false,
+      "versions": [
+        {
+          "version": "6.13.5",
+          "date": "2026-01-19",
+          "localizedDescription": "Modified version of Tinkoff Bank",
+          "downloadURL": "https://maybeyoou.ru/sidestore-repo/ipas/Tinkoff+Bank+6.13.5.ipa",
+          "size": 191115908
+        }
+      ]
     }
   ],
   "news": [
     {
-      "title": "Новые приложения",
-      "identifier": "new_apps",
-      "caption": "Добавлены Spotify++, YouTube++, Avito и Tinkoff Bank",
-      "date": "2026-01-19",
-      "notify": true
+      "title": "Welcome to My Repository",
+      "identifier": "welcome",
+      "caption": "Welcome to my personal SideStore repository",
+      "date": "2026-01-19T00:00:00Z",
+      "notify": false,
+      "tintColor": "#0784FC"
     }
   ]
 }
