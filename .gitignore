@@ -3,7 +3,6 @@
 *.xcworkspace/
 build/
 DerivedData/
-*.ipa
 *.dSYM
 
 # macOS
