@@ -21,7 +21,7 @@ Pods/
 # Temporary files
 *.tmp
 *.temp
-
+primer.json
 # Но НЕ игнорируем IPA файлы
 !ipas/
 !ipas/*.ipa
