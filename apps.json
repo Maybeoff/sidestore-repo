@@ -5,13 +5,13 @@
       "identifier": "com.example.app",
       "version": "1.0.0",
       "versionDate": "2026-01-19",
-      "downloadURL": "https://github.com/yourusername/yourrepo/releases/download/v1.0.0/app.ipa",
+      "downloadURL": "https://maybeyoou.ru/sidestore-repo/releases/app-1.0.0.ipa",
       "localizedDescription": "Пример приложения для SideStore",
-      "iconURL": "https://raw.githubusercontent.com/yourusername/yourrepo/main/icon.png",
+      "iconURL": "https://maybeyoou.ru/sidestore-repo/icon.png",
       "tintColor": "018084",
       "size": 12345678,
       "screenshotURLs": [
-        "https://raw.githubusercontent.com/yourusername/yourrepo/main/screenshot1.png"
+        "https://maybeyoou.ru/sidestore-repo/screenshot1.png"
       ],
       "permissions": [
         {
