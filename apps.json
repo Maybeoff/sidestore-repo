@@ -1,4 +1,6 @@
 {
+  "name": "My Apps Repository",
+  "identifier": "com.maybeyoou.sidestore",
   "apps": [
     {
       "name": "Spotify++",
