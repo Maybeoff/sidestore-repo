@@ -11,11 +11,17 @@
 
 ## Использование
 
+### Способ 1: Через кнопку (рекомендуется)
+
+[![Add to SideStore](https://img.shields.io/badge/Add%20to-SideStore-blue?style=for-the-badge)](https://stikstore.app/altdirect/?url=https://maybeyoou.ru/sidestore-repo/apps.json)
+
+### Способ 2: Вручную
+
 1. Откройте SideStore
 2. Перейдите в "Sources" (Источники)
 3. Нажмите "+" и добавьте URL репозитория:
    ```
-   https://raw.githubusercontent.com/Maybeoff/sidestore-repo/main/apps.json
+   https://maybeyoou.ru/sidestore-repo/apps.json
    ```
 4. Приложения появятся в списке доступных для установки
 
